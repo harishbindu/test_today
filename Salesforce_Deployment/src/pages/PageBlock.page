@@ -1,0 +1,23 @@
+<apex:page >
+    <apex:form >
+        <apex:pageBlock title="MyFistPageBlock" helpTitle="NeedHelp?" helpUrl="/apex/Picklist">
+        <apex:outputLabel value="Enter Name"/>
+        <apex:inputText id="one"/>
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="My Choice">
+            <apex:commandButton value="My button" action="{!Save}"/>
+        </apex:pageBlock>
+        <apex:pageBlock title="Button 3">
+        
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton value="Save" action="{!Save}"/>
+                <apex:commandButton value="Cancel" action="{!Cancel}"/>
+                </apex:pageBlockButtons>
+        <apex:outputLabel value="Enter Name"/>
+        <apex:inputText id="one"/>
+        
+        </apex:pageBlock>
+        
+        </apex:form>
+    </apex:page>

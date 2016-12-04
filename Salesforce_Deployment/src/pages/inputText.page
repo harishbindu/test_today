@@ -1,0 +1,16 @@
+<apex:page standardController="Account">
+
+  <apex:form >
+    
+    Input Text: <apex:inputText /> <br/>
+     Account Name (Input Text): <apex:inputText value="{!Account.name}"/>
+    Account Industry(Input Text) <apex:inputText value="{!Account.Industry}"/>
+    Account Name (Input Field): <apex:inputField value="{!Account.name}"/>
+    Account Industry ( Input Field ):<apex:inputField value="{!Account.Industry}"/>
+    Account Name (Inout Secret ): <apex:inputSecret value="{!Account.name}"/>
+    Account Industry (Input Hidden ): <apex:inputHidden value="{!Account.Industry}"/>
+    Checkbox: <apex:inputCheckBox />
+    Text Area: <apex:inputTextArea cols="20"/>
+    </apex:form>
+
+</apex:page>

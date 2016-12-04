@@ -1,0 +1,3 @@
+<apex:page renderAs="pdf">
+    HI, This is my first session, Hope I will Rock :)
+</apex:page>

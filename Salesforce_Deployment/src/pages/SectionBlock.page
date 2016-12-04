@@ -1,0 +1,10 @@
+<apex:page standardController="Organization">
+
+
+    <apex:pageBlock title="Hello {!$User.FirstName}!">
+
+        You are viewing the {!$Organization.Name} account.
+
+    </apex:pageBlock>
+      <apex:detail />
+</apex:page>
