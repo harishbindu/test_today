@@ -1,0 +1,31 @@
+<apex:page >
+    <apex:form >
+    <apex:selectList size="1">
+        
+        <apex:selectOption itemLabel="None" itemValue="one"/>
+        <apex:selectOption itemLabel="Jan" itemValue="two"/>
+        <apex:selectOption itemLabel="Feb" itemValue="three"/>
+        <apex:selectOption itemLabel="March" itemValue="four" itemdisabled="true"/>
+         <apex:selectOption itemLabel="April" itemValue="Five" itemescaped="true"/>  
+        <apex:selectCheckboxes >
+            
+       <apex:selectOption itemLabel="None" itemValue="one"/>
+        <apex:selectOption itemLabel="Jan" itemValue="two"/>
+        <apex:selectOption itemLabel="Feb" itemValue="three"/>
+        <apex:selectOption itemLabel="March" itemValue="four" itemdisabled="true"/>
+         <apex:selectOption itemLabel="April" itemValue="Five" itemescaped="true"/>              
+        
+       </apex:selectCheckboxes>
+        
+        <apex:selectRadio border="3" label="My Choice" accesskey="z">
+               <apex:selectOption itemLabel="None" itemValue="one"/>
+        <apex:selectOption itemLabel="Jan" itemValue="two"/>
+        <apex:selectOption itemLabel="Feb" itemValue="three"/>
+        <apex:selectOption itemLabel="March" itemValue="four" itemdisabled="true"/>
+         <apex:selectOption itemLabel="April" itemValue="Five" itemescaped="true"/>       
+        
+        </apex:selectRadio>
+      </apex:selectList>
+    
+    </apex:form>
+</apex:page>

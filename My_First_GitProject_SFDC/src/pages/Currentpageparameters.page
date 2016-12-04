@@ -1,0 +1,4 @@
+<apex:page >
+    {! $CurrentPage.parameters.Name}
+    {! $CurrentPage.parameters.Location}
+</apex:page>

@@ -1,0 +1,13 @@
+<apex:Page >
+<apex:outputLabel > Enter Name </apex:outputLabel>
+<script>
+ function show()
+ {
+   alert("Hello")
+   }
+
+</script>
+<apex:form >
+<apex:commandButton value="Click" onclick="show()"/>
+</apex:form>
+</apex:page>
